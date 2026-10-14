@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Huninn&display=swap");
+
+header {
+  background-color: #5c4033;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px black;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e8d5c4;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #5c4033;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px black;
+}
